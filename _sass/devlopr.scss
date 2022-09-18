@@ -1,3 +1,19 @@
+
+
+@font-face {
+  font-family: 'LektonCodeRegular';
+  src: url('/assets/css/LektonCode-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.termin {
+  color: orange; 
+  font-size: 20px; 
+  white-space: nowrap; 
+  font-family: LektonCodeRegular;
+}
+
 /* devlopr-jekyll styling */
 
 /* variables */
@@ -222,6 +238,14 @@ header {
     margin-right: 0px !important;
     margin-top: 10px !important;
 }
+
+.container-fluid2 {
+  padding: 0px !important;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  margin-top: 10px !important;
+}
+
 .card {
     margin: 20px !important;
     padding: 20px !important;
@@ -626,7 +650,7 @@ header {
 // }
 
 #article-container{
-    display: grid;
+    
     width: 100%;
     grid-template-columns: 1fr 50fr 4fr;
 }
