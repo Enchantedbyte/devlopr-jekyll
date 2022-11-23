@@ -16,8 +16,8 @@ urls:
 #      url: /blog
 #    - text: Galerie
 #      url: /gallery
-#    - text: Kontakt
- #     url : /contact
+    - text: Impressum
+      url : /contact
 
 
 # Edit Author details (For multi authors check _data/authors.yml)
