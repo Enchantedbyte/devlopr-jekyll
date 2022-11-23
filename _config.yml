@@ -195,5 +195,33 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - .git
+  - .github
+  - .all-contriutorsrc
+  - .buildconfig
+  - .firebaserc
+  - .gitignore
+  - .ruby-version
+  - DEPLOY_STRATEGY
+  - devlopr.gemspec
+  - docker-compose-dev.yml
+  - docker-compose-prod.yml
+  - Dockerfile
+  - feed.xml
+  - firebase.json
+  - Gemfile
+  - Gemfile.lock
+  - install.md
+  - LICENSE
+  - netlify.toml
+  - Procfile
+  - Rakefile
+  - README.md
+  - screenshot.png
+  - screensho2.png
+  - SECURITY.md
+  - shop.md
+  - sponsors.md
+  - styleguide.md
 
 destination: ./build
