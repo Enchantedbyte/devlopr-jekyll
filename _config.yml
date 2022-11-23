@@ -223,5 +223,8 @@ exclude:
   - shop.md
   - sponsors.md
   - styleguide.md
+  - bower.json
+  - app.json
+  - config.ru
 
 destination: ./build

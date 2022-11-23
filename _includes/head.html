@@ -26,8 +26,6 @@
   <meta content="{{ page.summary }}" property="og:description" />
   {% else %}
   <meta content="{{ site.description }}" property="og:description" />
-  {% endif %} {% if page.url %}
-  <meta content="{{ site.url }}{{ page.url }}" property="og:url" />
   {% endif %} {% if page.date %}
   <meta
     content="{{ page.date | date_to_xmlschema }}"
@@ -43,26 +41,6 @@
   <meta content="{{ tag }}" property="article:tag" />
   {% endfor %} {% endif %}
 
-  <!-- Twitter Cards -->
-
-  {% if page.title %}
-  <meta name="twitter:title" content="{{ page.title }}" />
-  {% else %}
-  <meta name="twitter:title" content="{{ site.title }}" />
-  {% endif %}
-
-  {% if page.url %}
-  <meta name="twitter:url" content="{{ site.url }}{{ page.url }}" />
-  {% endif %} {% if page.summary %}
-  <meta name="twitter:description" content="{{ page.summary }}" />
-  {% else %}
-  <meta name="twitter:description" content="{{ site.description }}" />
-  {% endif %} {% if page.header-img %}
-  <meta
-    name="twitter:image:src"
-    content="{{ site.url }}{{ page.thumbnail }}"
-  />
-  {% endif %}
 
   <link rel="stylesheet" href="{{site.url}}{{site.baseurl}}/assets/css/main.css" />
   <!-- <link rel="stylesheet" href="{{site.url}}{{site.baseurl}}/assets/css/custom-style.css" /> -->
@@ -115,7 +93,7 @@
   <script src="{{site.url}}{{site.baseurl}}/assets/bower_components/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="{{site.url}}{{site.baseurl}}/assets/bower_components/nanobar/nanobar.min.js"></script>
   <script src="{{site.url}}{{site.baseurl}}/assets/bower_components/typewrite/dist/typewrite.min.js"></script>
-  <script src="{{site.url}}{{site.baseurl}}/assets/js/search.js"></script>
+<!--  <script src="{{site.url}}{{site.baseurl}}/assets/js/search.js"></script>-->
   <script src="{{site.url}}{{site.baseurl}}/assets/js/on-scroll-progress.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
 
